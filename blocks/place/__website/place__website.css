@@ -1,0 +1,16 @@
+.place__website{
+  display: flex;
+  margin: 0;
+  grid-area: website;
+  flex-direction: column;
+  padding: 0 16px 0 16px;
+}
+
+@media screen and (min-width:768px) {
+  .place__websit{
+    padding: 0;
+    align-content: flex-end;
+  }
+}
+
+

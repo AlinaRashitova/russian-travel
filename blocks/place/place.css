@@ -1,0 +1,34 @@
+.place{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+@media screen and (min-width:768px) {
+  .place{
+    display: grid;
+    grid-template-columns: 340px 1fr;
+    grid-template-areas:
+      "title website"
+      "image text";
+    column-gap: 28px;
+    row-gap: 48px;
+    padding-bottom: 73px;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .place{
+    grid-template-columns: 440px 1fr;
+    column-gap: 32px;
+    padding-bottom: 80px;
+  }
+}
+
+@media screen and (min-width:1280px) {
+  .place{
+    grid-template-columns: 460px 1fr;
+    column-gap: 40px;
+  }
+}

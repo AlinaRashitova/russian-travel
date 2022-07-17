@@ -27,6 +27,7 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__list-item/intro__list-item.css);
+@import url(../blocks/intro/__span-accent/intro__span-accent.css);
 
 /*Photo*/
 @import url(../blocks/photo/photo.css);
@@ -56,4 +57,6 @@
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 
-
+/*Link*/
+@import url(../blocks/link/link.css);
+@import url(../blocks/link/__mark/link__mark.css);

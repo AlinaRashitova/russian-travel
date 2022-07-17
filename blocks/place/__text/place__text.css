@@ -1,4 +1,4 @@
-.place__text{
+.place__text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.63;
@@ -11,12 +11,12 @@
   padding: 32px 16px 50px 16px;
 }
 
-.place__text:last-child{
+.place__text:last-child {
   padding-bottom: 66px;
 }
 
 @media screen and (min-width:768px) {
-  .place__text{
+  .place__text {
     padding: 0;
   }
 }

@@ -1,4 +1,4 @@
-.lead__image{
+.lead__image {
   object-fit: cover;
   width: 100%;
   padding: 40px 0 0 0;
@@ -6,13 +6,13 @@
 }
 
 @media screen and (min-width:768px) {
-  .lead__image{
+  .lead__image {
     padding-top: 0;
   }
 }
 
 @media screen and (min-width:1024px) {
-  .lead__image{
+  .lead__image {
     max-width: 928px;
     max-height: 580px;
     padding-left: 48px;
@@ -21,7 +21,7 @@
 }
 
 @media screen and (min-width:1280px) {
-  .lead__image{
+  .lead__image {
     max-width: 984px;
     max-height: 615px;
     padding-left: 148px;

@@ -1,11 +1,11 @@
-.place {
+.card {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 @media screen and (min-width:768px) {
-  .place {
+  .card {
     display: grid;
     grid-template-columns: 340px 1fr;
     grid-template-areas:
@@ -17,19 +17,19 @@
   }
 }
 
-.place:last-child {
+.card:last-child {
   padding-bottom: 0;
 }
 
 @media screen and (min-width:1024px) {
-  .place {
+  .card {
     grid-template-columns: 440px 1fr;
     column-gap: 32px;
   }
 }
 
 @media screen and (min-width:1280px) {
-  .place {
+  .card {
     grid-template-columns: 460px 1fr;
     column-gap: 40px;
   }

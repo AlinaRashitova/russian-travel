@@ -7,7 +7,8 @@
   min-width: 288px;
   box-sizing: border-box;
   grid-area: text;
-  padding: 32px 16px 50px 16px;
+  padding: 30px 16px 50px 16px;
+  white-space: pre-line;
 }
 
 @media screen and (min-width:768px) {

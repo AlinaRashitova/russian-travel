@@ -8,7 +8,7 @@
 
 @media screen and (min-width:768px) {
   .card__website {
-    padding: 0;
+    padding: 10px 0 0 0;
     align-self: end;
   }
 }

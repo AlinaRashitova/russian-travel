@@ -2,6 +2,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 0 0 67px 0;
+  box-sizing: border-box;
 }
 
 @media screen and (min-width:768px) {
@@ -13,6 +15,7 @@
       "image text";
     column-gap: 28px;
     row-gap:  48px;
+    padding-bottom: 0;
   }
 }
 
@@ -24,6 +27,7 @@
   .card {
     grid-template-columns: 440px 1fr;
     column-gap: 32px;
+    margin: 12px 0 15px 0;
   }
 }
 
@@ -31,5 +35,6 @@
   .card {
     grid-template-columns: 460px 1fr;
     column-gap: 40px;
+    margin-bottom: 10px 0;
   }
 }

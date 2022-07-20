@@ -4,4 +4,8 @@
   -moz-osx-font-smoothing: grayscale;
   background-color: #2A2C2F;
   color: #fff;
+  min-width: 320px;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0;
 }

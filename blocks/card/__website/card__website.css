@@ -3,12 +3,12 @@
   margin: 0;
   grid-area: website;
   flex-direction: column;
-  padding: 0 16px 0 16px;
+  padding: 32px 16px;
 }
 
 @media screen and (min-width:768px) {
   .card__website {
-    padding: 10px 0 0 0;
+    padding: 0;
     align-self: end;
   }
 }

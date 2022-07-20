@@ -3,24 +3,19 @@
   flex-direction: column;
   max-width: 100%;
   box-sizing: border-box;
+  padding: 70px 0 24px 16px;
 }
 
 @media screen and (min-width:768px) {
   .footer {
     flex-direction: row;
     justify-content: space-between;
-    padding: 88px 24px 24px 24px;
+    padding: 88px 40px 24px 24px;
   }
 }
 
 @media screen and (min-width:1024px) {
   .footer {
-    padding: 95px 48px 24px 48px;
-  }
-}
-
-@media screen and (min-width:1280px) {
-  .footer {
-    padding-top: 90px;
+    padding: 92px 65px 24px 48px;
   }
 }

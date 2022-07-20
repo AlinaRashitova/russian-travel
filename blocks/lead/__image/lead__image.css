@@ -7,7 +7,7 @@
 
 @media screen and (min-width:768px) {
   .lead__image {
-    padding-top: 0;
+    padding: 56px 0 0 0;
   }
 }
 
@@ -15,8 +15,7 @@
   .lead__image {
     max-width: 928px;
     max-height: 580px;
-    padding-left: 48px;
-    padding-right: 48px;
+    padding: 56px 48px 0 48px
   }
 }
 
@@ -24,7 +23,6 @@
   .lead__image {
     max-width: 984px;
     max-height: 615px;
-    padding-left: 148px;
-    padding-right: 148px;
+    padding: 64px 148px 0 148px;
   }
 }

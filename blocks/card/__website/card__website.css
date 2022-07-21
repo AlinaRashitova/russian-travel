@@ -3,7 +3,7 @@
   margin: 0;
   grid-area: website;
   flex-direction: column;
-  padding: 32px 16px;
+  padding: 0 16px;
 }
 
 @media screen and (min-width:768px) {

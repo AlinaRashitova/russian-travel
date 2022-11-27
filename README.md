@@ -10,5 +10,4 @@ __Технологии:__
 4. Позиционирование.
 5. Псевдоклассы.
 
-__Ссылка на GitHub Pages:__
-https://alinarashitova.github.io/russian-travel/
+[DEMO](https://alinarashitova.github.io/russian-travel/)
